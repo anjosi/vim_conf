@@ -1,7 +1,8 @@
 execute pathogen#infect()
 filetype on
 syntax on
-colorscheme Tomorrow
+colorscheme Tomorrow-Night
+highlight LineNr ctermfg=green
 set guifont=Menlo\ Regular:h18
 set lines=35 columns=150
 set colorcolumn=90
@@ -28,7 +29,18 @@ set hlsearch
 nnoremap <silent> <Esc> :nohlsearch<Bar>:echo<CR>
 "toggle between two files with two taps on the space (leader)
 nnoremap <Leader><Leader> :e#<CR>
-
 set showmatch
-
+"automatically add new file to the command-t index
+noremap <Leader>r :CommandTFlush<CR>
+"Command-T ignore from the search
+set wildignore+=*.log,*.sql,*.cache
+set laststatus=2
+set noshowmode
+if !has('gui_running')
+  set t_Co=256
+endif
+inoremap jj <Esc>
+nmap <leader>n :NERDTreeToggle<CR>
+nmap <leader>j :NERDTreeFind<CR>
+let NERDTreeIgnore=['\.DS_Store', '\~$', '\.swp']
 
