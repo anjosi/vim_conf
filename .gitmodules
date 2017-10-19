@@ -13,3 +13,12 @@
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = git@github.com:scrooloose/nerdtree.git
+[submodule "bundle/tlib_vim.git"]
+	path = bundle/tlib_vim.git
+	url = git@github.com:tomtom/tlib_vim.git
+[submodule "bundle/vim-addon-mw-utils.git"]
+	path = bundle/vim-addon-mw-utils.git
+	url = git@github.com:MarcWeber/vim-addon-mw-utils.git
+[submodule "bundle/vim-snipmate.git"]
+	path = bundle/vim-snipmate.git
+	url = git@github.com:garbas/vim-snipmate.git
