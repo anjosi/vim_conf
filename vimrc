@@ -43,4 +43,8 @@ inoremap jj <Esc>
 nmap <leader>n :NERDTreeToggle<CR>
 nmap <leader>j :NERDTreeFind<CR>
 let NERDTreeIgnore=['\.DS_Store', '\~$', '\.swp']
+"Ctrl+p to paste Clipboard to Vim
+nnoremap <C-p> "+p
+"Ctrl+y to yank from Vim to Clipboard
+vnoremap <C-y> "+y
 
