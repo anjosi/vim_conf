@@ -48,6 +48,8 @@ nnoremap <C-p> "+p
 "Ctrl+y to yank from Vim to Clipboard
 vnoremap <C-y> "+y
 "remap SnipMate from tab to ctrl+j
-imap <C-J> <Plug>snipMateNextOrTrigger
-smap <C-J> <Plug>snipMateNextOrTrigger
+imap ss <esc>a<Plug>snipMateNextOrTrigger
+smap ss <Plug>snipMateNextOrTrigger
+imap <C-l> <esc>a<Plug>snipMateShow
+smap <C-l> <Plug>snipMateShow
 
