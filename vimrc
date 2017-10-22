@@ -52,4 +52,10 @@ imap ss <esc>a<Plug>snipMateNextOrTrigger
 smap ss <Plug>snipMateNextOrTrigger
 imap <C-l> <esc>a<Plug>snipMateShow
 smap <C-l> <Plug>snipMateShow
+"Doxygen key-mappings
+map <leader>a :DoxAuth<CR>
+map <leader>b :DoxBlock<CR>
+map <leader>u :DoxUndoc<CR>
+map <leader>l :DoxLic<CR>
+map <leader>d :Dox<CR>
 
