@@ -47,4 +47,6 @@ let NERDTreeIgnore=['\.DS_Store', '\~$', '\.swp']
 nnoremap <C-p> "+p
 "Ctrl+y to yank from Vim to Clipboard
 vnoremap <C-y> "+y
+imap <C-J> <Plug>snipMateNextOrTrigger
+smap <C-J> <Plug>snipMateNextOrTrigger
 
