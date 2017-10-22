@@ -22,3 +22,6 @@
 [submodule "bundle/vim-snipmate.git"]
 	path = bundle/vim-snipmate.git
 	url = git@github.com:garbas/vim-snipmate.git
+[submodule "bundle/YouCompleteMe"]
+	path = bundle/YouCompleteMe
+	url = git@github.com:Valloric/YouCompleteMe
