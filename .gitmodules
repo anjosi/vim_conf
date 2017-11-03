@@ -37,3 +37,6 @@
 [submodule "bundle/DoxygenToolkit.vim"]
 	path = bundle/DoxygenToolkit.vim
 	url = git@github.com:vim-scripts/DoxygenToolkit.vim
+[submodule "bundle/posva/vim-vue"]
+	path = bundle/posva/vim-vue
+	url = git@github.com:posva/vim-vue
