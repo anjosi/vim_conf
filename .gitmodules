@@ -40,3 +40,12 @@
 [submodule "bundle/posva/vim-vue"]
 	path = bundle/posva/vim-vue
 	url = git@github.com:posva/vim-vue.git
+[submodule "bundle/othree/html5.vim"]
+	path = bundle/othree/html5.vim
+	url = git@github.com:othree/html5.vim
+[submodule "bundle/othree/javascript-libraries-syntax.vim"]
+	path = bundle/othree/javascript-libraries-syntax.vim
+	url = git@github.com:othree/javascript-libraries-syntax.vim
+[submodule "bundle/othree/yajs.vim"]
+	path = bundle/othree/yajs.vim
+	url = git@github.com:othree/yajs.vim
