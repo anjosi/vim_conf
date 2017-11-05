@@ -46,6 +46,3 @@
 [submodule "bundle/othree/yajs.vim"]
 	path = bundle/othree/yajs.vim
 	url = git@github.com:othree/yajs.vim
-[submodule "bundle/othree/javascript-libraries-syntax.vim"]
-	path = bundle/othree/javascript-libraries-syntax.vim
-	url = git@github.com:othree/yajs.vim
