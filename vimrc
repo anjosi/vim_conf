@@ -58,4 +58,9 @@ map <leader>b :DoxBlock<CR>
 map <leader>u :DoxUndoc<CR>
 map <leader>l :DoxLic<CR>
 map <leader>d :Dox<CR>
+let g:html5_event_handler_attributes_complete = 0
+let g:html5_rdfa_attributes_complete = 0
+let g:html5_microdata_attributes_complete = 0
+let g:html5_aria_attributes_complete = 0
+au BufRead,BufNewFile *.vue set ft=html
 
